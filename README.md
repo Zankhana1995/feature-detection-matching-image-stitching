@@ -14,7 +14,8 @@ In the Project, you will apply your features to automatically stitch images into
 In this project, the goal is to write software which stitches images together to form panoramas. The software will detect useful features in the images, find the best matching features in other images, align the photographs, then warp and blend the photos to create a seamless panorama.
 This Project can be thought of as two major components:
 1. Feature Detection and Matching [Assignment #2]
-2. Panorama Mosaic Stitching [This Project]. 
+2. Panorama Mosaic Stitching [This Project].  
+
 All the step required are as follow and find details in project folder.
 1. Compute the Harris corner detector.  
 2. Matching the interest points between two images.  
