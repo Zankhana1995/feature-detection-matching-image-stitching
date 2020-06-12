@@ -1,0 +1,23 @@
+readme 
+computer vision COMP 6341
+In my project I have used, Python version 3.7 or lower, OpenCV 3.4.2.16, opencv-contrib-python 3.4.2.16
+
+I have mention the instructions to run the project in this readme file. For further detail description regarding results check project report. 
+
+
+3 files to run: main.py, mainRainierImagesPanorama.py, mainCameraImagesPanorama.py
+
+
+I have used Pycharm IDE and inside one blank project I made one python package named proj. That package I am submitting here. So to run make new python project and inside that project paste my folder "proj". Inside this python package, there are 2 folders and 8 python files as below:
+folders: images, results
+You can find all the results mention in project result in results folder. You can find all images given in images folder.
+
+8 python files are _init_.py, main.py, mainRainierImagesPanorama.py, mainCameraImagesPanorama.py, featureDetector.py, ransac.py, stitching.py, blend.py
+
+From these files, you may 1st run main.py (For 1a.png, 1b.png, 1c.png, 2.png, 3.png, 4.png) for detecting Harris corner on Box.png and for stitching of 2 images Rainier1.png and Rainier2.png.
+
+After this, next you may run mainRainierImagesPanorama.py. It'll generate an image in results folder which is finalSixImages.png for 6 Rainier Images. 
+
+After this, run mainCameraImagesPanorama.py. It'll generate an image in results folder which is finalCameraImages.png for 4 my own phone images. 
+
+If you want to run some other images, you can paste those into images folder and you can change the name of loaded images in the function loadRainierImages() in mainRainierImagesPanorama.py and you can change the result image name from same function. After running that file again you find generated result in results folder. Refresh the folder (or reload from disk) before opening result images.
